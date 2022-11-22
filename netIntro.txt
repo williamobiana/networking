@@ -1,0 +1,45 @@
+model driven programmability
+NETCONF
+RESTCONF
+advantages and disadvantages of catalyst 9k
+network service orchestrators
+ansible and ansible-playbook to manage infranstructure or Terraform
+BGP, OSPF, STP, RIP
+
+
+model driven programmability:
+allows our data to be structured using YANG
+
+NETCONF: Network configuration using YANG models
+RESTCONF: Rest API configuration using YANG models
+
+catalyst 9k is series of hardware switches that simplifies the design, provision and maintenance ...
+... of security across the entire access network to the network core
+#https://www.com-4t.rs/en/blog/5-benefits-cisco-catalyst-9000-switches
+
+advantages:
+1. it uses DNA archetecture for security
+2. uses YANG models to increase speed of response
+3. wired and wireless network can be configured
+4. IOT archetecture can be configured
+5. can intergrate with cloud environment
+
+disadvantages:
+1. power supply (if power outage, it shuts down network)
+2. SSD storage (needs physical storage)
+3. expensive
+4. stacking box over box 
+
+Network service orchestrators
+#https://www.anutanetworks.com/network-service-orchestration/
+Refers to a software solution that helps network operators configure and automate multiple network elements as per a given service definition
+
+A network service typically spans multiple network elements such as routers, firewalls, load-balancers, VPN gateways, WAN optimizers, Web Security Services. 
+These elements can be physical or virtual appliances and often sourced from different vendors
+The network elements may reside in an enterprise Data Center (also known as Private Cloud) or Public cloud (AWS VPC)
+
+BGP - Border gateway protocol designed to exchange routing and reachability information among autonomous systems on the internet
+OSPF - Open Shortest Path First used to find the best path for packets as they pass through a set of connected networks
+STP - Spanning tree protocol builds a loop free logical topology 
+RIP - Routing information protocol uses hop count as a routing metric to prevent loops
+
